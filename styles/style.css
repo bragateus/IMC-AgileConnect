@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --azul:#345ff6;
+    --gunmetal:#253347;
+    --dark:#5e6e85;
+    --branco:#ffffff;
+    font-family: Inter, sans-serif;
+    
+}
+body{
+    font: var(--gunmetal);
+    font-family: var(--font-family);
+    color: var(--gunmetal);
+
+}
+
+.container{
+    display: flex;
+    margin: 140px;
+    color:var(--gunmetal);
+}
+.calc{
+    display: flex;
+    margin-left: 10em;
+}
+
+.titulo-inicial{
+    width: 50em;
+    padding-right: 5em;
+    justify-content: center;
+}
+
+.homemMeio{
+    justify-content: center;
+    gap: 15em;
+}
+
+.titulo-texto .titulo{
+    width: 600px;
+}
+.texto.b{
+    width: 580px;
+}
+.titulo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 110%;
+    color: var(--gunmetal);
+    letter-spacing: -0.05em;
+    
+}
+.texto{
+    width: 465px;
+    height: 96px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--dark);
+}
+
+.Tmaior{
+    font-size: 64px;
+    width: 450px;
+}
+
+.imagem-h{
+    width: 564px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+#result {
+    background-color: var(--azul);
+    color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.bmi-result{
+    font-size: x-large;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+    
+}
+
+.input-group label {
+    font-size: 1rem;
+    color:var(--dark);
+    margin-right: 10px;
+    
+}
+
+.input-fields {
+    display: flex;
+    gap: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--azul);
+    
+}
+
+.input-group input[type="number"] {
+    width: 50%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--gunmetal);
+    border: solid var(--gunmetal) 1px;
+    border-radius: 12px;
+}
+
+.input-group span {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+.classification {
+    font-size: 1.2em;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.ideal-weight {
+    font-size: 1.2em;
+    margin-top: 5px;
+    font-style: italic;
+    color: #ffecb3;
+}
+
+.initial-result p {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .calc {
+        margin-left: 0;
+    }
+}
+.h4{
+/* Heading M */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -0.05em;
+
+/* Gunmetal */
+color: #253347;
+
+
+}
+.dicas{
+    gap:5em;
+    justify-content: center;
+}
+
+.dica{
+    width: 25em;
+}
+h4{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.05em;
+}
+.dica__texto{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+width: 95%;
+}
+.container.saude{
+    flex-direction: column;
+    
+}
+
+.medida-calc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--azul);
+}
+
+.item-gender{
+    margin-left: 10em;
+}
+
+.faixaS{
+    display: flex;
+    flex-direction: row;
+    gap: 15em;
+    margin-right: 5em;
+    justify-items: auto;
+    
+}
+
+.faixaM{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+    margin-right: 5em;
+    padding: 5em;
+    padding-left: 35em;
+    width: 65%;
+    
+
+}
+
+
+.faixaB{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+    margin-right: 5em;
+    padding: 2em;
+    padding-left: 22em;
+    width: 65%;
+    
+
+}
+
